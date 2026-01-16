@@ -13,11 +13,8 @@ let words = [
 ];
 
 function draw() {
-  background(245);
+  background(197, 245, 255);
   
-  fill("cyan"); // Set the color to cyan
-  rect(900, 50, 0, 1000);
-
   textSize(20);
   fill(0);
   text("Biology Crossword Puzzle", 100, 40);
@@ -49,7 +46,7 @@ function draw() {
 
 
 function setup() {
-  createCanvas(900, 750);
+  createCanvas(1200, 1000);
   textFont("Times New Roman");
   
   
