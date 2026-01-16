@@ -46,7 +46,7 @@ function draw() {
 
 
 function setup() {
-  createCanvas(1200, 1000);
+  createCanvas(windowWidth, windowHeight);
   textFont("Times New Roman");
   
   
