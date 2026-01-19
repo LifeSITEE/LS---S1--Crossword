@@ -15,7 +15,7 @@ let words = [
 let bgImg;
 
 function preload() {
-  bgImg = loadImage('LSbackgroung.png'); 
+  bgImg = loadImage('LSbackground.png'); 
 }
 
 function draw() {
