@@ -12,8 +12,14 @@ let words = [
   { answer: "NUCLEUS", inputs: [], x: 370, y: 100, type:"D" }
 ];
 
+let bgImg;
+
+function preload() {
+  bgImg = loadImage('LSbackgroung.png'); 
+}
+
 function draw() {
-  background(197, 245, 255);
+  background(bgImg);
   
   textSize(20);
   fill(0);
@@ -48,8 +54,6 @@ function draw() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   textFont("Times New Roman");
-  
-  
 
   let createdInputs = {};
   
